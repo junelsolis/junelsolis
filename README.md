@@ -20,7 +20,7 @@ Tykistökatu 6
 <img src="https://junelsolis-github-stats.vercel.app/api?username=junelsolis&show_icons=true" />
 </picture>
 
-### Languages and tools
+### Tools
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=py,pandas,tensorflow,pytorch,docker,scikitlearn,scipy,seaborn,vscode,openstack,linux,bash,git,ts,sass,tailwind,vue&perline=8) 
 
 ### Organizations
