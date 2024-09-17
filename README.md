@@ -1,3 +1,6 @@
+<a href="https://github.com/junelsolis/github-readme-stats">
+  <img height=200 align="center" src="https://junelsolis-github-stats.vercel.app/api?username=junelsolis&count_private=true&show_icons=true&locale=en&theme=algolia&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" />
+</a>
 
 <!--
 **junelsolis/junelsolis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
