@@ -4,7 +4,7 @@ Junel RS Solis, MD, MSc
 Image Data Analyst
 Turku BioImaging
 University of Turku and Åbo Akademi University
-Tykistökatu 6, Turku
+Tykistökatu 6
 20520 Turku, FINLAND
 </pre>
 
