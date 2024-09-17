@@ -36,4 +36,4 @@ Tykistökatu 6
 - Volume electron microscopy
 - Super-resolution microscopy image data analysis
 - Management of research image data
-- Application of computer vision to remote sensing for ecological and agricultural monitoring
+- Remote sensing image data for ecological and agricultural monitoring
