@@ -14,10 +14,10 @@ Tykistökatu 6
   media="(prefers-color-scheme: dark)"
 />
 <source
-  srcset="https://junelsolis-github-stats.vercel.app/api?username=junelsolis&count_private=true&show_icons=true&locale=en&theme=default&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"
+  srcset="https://junelsolis-github-stats.vercel.app/api?username=junelsolis&count_private=true&show_icons=true&locale=en&theme=algolia&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"
   media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
 />
-<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+<img src="https://junelsolis-github-stats.vercel.app/api?username=junelsolis&show_icons=true" />
 </picture>
 
 ## Organizations
