@@ -1,3 +1,13 @@
+<pre>
+Junel RS Solis, MD, MSc
+
+Image Data Analyst
+Turku BioImaging
+University of Turku and Åbo Akademi University
+Tykistökatu 6, Turku
+20520 Turku, FINLAND
+</pre>
+
 <a href="https://github.com/junelsolis/github-readme-stats">
   <img height=200 align="center" src="https://junelsolis-github-stats.vercel.app/api?username=junelsolis&count_private=true&show_icons=true&locale=en&theme=algolia&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" />
 </a>
