@@ -36,4 +36,4 @@ Tykistökatu 6
 - Remote sensing image data for ecological and agricultural monitoring
 
 ### My tools
-![My tools](https://go-skill-icons.vercel.app/api/icons?i=py,pandas,tensorflow,pytorch,docker,scikitlearn,scipy,seaborn,vscode,openstack,linux,bash,git,ts,sass,tailwind,vue,nginx,figma&theme=light) 
+![My tools](https://go-skill-icons.vercel.app/api/icons?i=py,pandas,tensorflow,pytorch,docker,scikitlearn,scipy,mysql,sqlite,seaborn,vscode,openstack,linux,bash,git,ts,sass,tailwind,vue,nginx,figma&theme=light) 
