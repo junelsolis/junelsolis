@@ -1,13 +1,12 @@
 <h1>JUNEL SOLIS, M.D., M.Sc</h1>
 <pre>
-
-
-Image Data Analyst
+BIOIMAGE DATA ANALYST
 Turku BioImaging
 University of Turku and Åbo Akademi University
 Tykistökatu 6
 20520 Turku, FINLAND
 </pre>
+
 
 <picture>
 <source
@@ -37,4 +36,4 @@ Tykistökatu 6
 - Remote sensing image data for ecological and agricultural monitoring
 
 ### My tools
-![My tools](https://go-skill-icons.vercel.app/api/icons?i=py,pandas,nextflow,tensorflow,pytorch,docker,scikitlearn,scipy,mysql,sqlite,seaborn,vscode,openstack,linux,bash,git,ts,sass,tailwind,vue,nginx,figma&theme=dark) 
+![My tools](https://go-skill-icons.vercel.app/api/icons?i=py,numpy,pandas,nextflow,tensorflow,pytorch,docker,scikitlearn,scipy,mysql,sqlite,seaborn,vscode,pinia,php,laravel,openstack,linux,ubuntu,bash,git,github,ts,sass,tailwind,vue,nginx,figma&theme=dark) 
