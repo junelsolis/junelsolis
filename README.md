@@ -1,4 +1,4 @@
-<h1>JUNEL SOLIS, M.D., M.Sc</h1>
+<h1>JUNEL SOLIS, MD, MSc</h1>
 <pre>
 BIOIMAGE DATA ANALYST
 Turku BioImaging
