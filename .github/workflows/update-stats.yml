@@ -14,6 +14,7 @@ jobs:
 
     env:
       CARD_OPTIONS: username=junelsolis&show_icons=true&locale=en&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
+      LANGS_OPTIONS: username=junelsolis&layout=compact&locale=en&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
 
     steps:
       - uses: actions/checkout@v6
@@ -35,6 +36,24 @@ jobs:
           card: stats
           options: ${{ env.CARD_OPTIONS }}&theme=default
           path: profile/stats-light.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: ${{ env.LANGS_OPTIONS }}&theme=algolia
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate light languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: ${{ env.LANGS_OPTIONS }}&theme=default
+          path: profile/top-langs-light.svg
           token: ${{ secrets.STATS_TOKEN }}
           fail_on_error: true
 
