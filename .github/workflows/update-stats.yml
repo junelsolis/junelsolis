@@ -1,0 +1,47 @@
+name: Update GitHub stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    env:
+      CARD_OPTIONS: username=junelsolis&show_icons=true&locale=en&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
+
+    steps:
+      - uses: actions/checkout@v6
+
+      # fail_on_error stops the run instead of committing a "Something went wrong"
+      # card, so an expired token leaves the last good cards in place.
+      - name: Generate dark stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: ${{ env.CARD_OPTIONS }}&theme=algolia
+          path: profile/stats-dark.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate light stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: ${{ env.CARD_OPTIONS }}&theme=default
+          path: profile/stats-light.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update GitHub stats cards" || exit 0
+          git push
