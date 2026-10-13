@@ -81,6 +81,11 @@ I build software for processing and analysing large-scale scientific image data.
 <img src="./profile/stats-light.svg" alt="Junel Solis's GitHub stats" />
 </picture>
 
+<picture>
+<source srcset="./profile/top-langs-dark.svg" media="(prefers-color-scheme: dark)" />
+<img src="./profile/top-langs-light.svg" alt="Junel Solis's most used languages" />
+</picture>
+
 ### Organizations
 
 [Turku BioImaging](https://bioimaging.fi) ·
