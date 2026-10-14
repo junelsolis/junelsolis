@@ -14,7 +14,7 @@ jobs:
 
     env:
       CARD_OPTIONS: username=junelsolis&show_icons=true&locale=en&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
-      LANGS_OPTIONS: username=junelsolis&layout=compact&locale=en&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
+      LANGS_OPTIONS: username=junelsolis&layout=compact&hide=jupyter%20notebook&exclude_repo=galeno,junelsolis-old,cci-resource-crm,kenya-speedbumps,income-tracker,timecards&locale=en&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
 
     steps:
       - uses: actions/checkout@v6
