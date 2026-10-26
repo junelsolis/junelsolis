@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Junel Solis&#39; GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 140, Total Commits  (last year) : 1122, Total PRs: 298, Total Issues: 650, Contributed to (last year): 36</desc>
+        <desc id="descId">Total Stars Earned: 140, Total Commits  (last year) : 1113, Total PRs: 298, Total Issues: 650, Contributed to (last year): 36</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 29.378436035012133;
+        stroke-dashoffset: 29.42560146064482;
       }
     }
   
